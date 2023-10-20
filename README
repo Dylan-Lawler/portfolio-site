@@ -1,0 +1,52 @@
+Certainly, here's a basic README file for your resume/about me website:
+
+```markdown
+# Resume & About Me Website
+
+This project is a simple React-based website that serves as a resume and an "About Me" page. It's designed to showcase your educational background, work experience, interests, and personal blurb.
+
+## Getting Started
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/your-resume-website.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd your-resume-website
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view your website.
+
+## Customization
+
+- **Content**: To update your resume and "About Me" information, modify the `Resume.js` and `AboutMe.js` files in the `src` folder. Add your own content and tailor it to your preferences.
+
+- **Styling**: You can further customize the website's appearance by editing the `styles.css` file in the `src` folder. Feel free to modify fonts, colors, or add additional CSS rules.
+
+- **Navigation**: Update the navigation links in the `App.js` file to reflect your website's structure.
+
+## Deployment
+This website is deployed at https://dylan-lawler.github.io/portfolio-site/
+
+## License
+
+This project is open-source 
+
+## Acknowledgments
+
+- Created with React
+- Developed by Dylan Lawler
+
+```
