@@ -1,0 +1,108 @@
+/* Common styles for both Resume and About Me pages */
+body {
+    font-family: 'Lobster';
+    
+    background-color: #8699b3;
+    margin: 0;
+    
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  h1, p {
+    text-align: center;
+    
+  }
+  
+  /* Resume page specific styles */
+  .resume-section {
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+  
+  .resume-section h1 {
+    text-align: center;
+  }
+  
+  .resume-section ul {
+    list-style: none;
+
+  }
+  
+  .resume-section li {
+    margin-bottom: 10px;
+  }
+  
+  /* About Me page specific styles */
+  .about-section {
+    text-align: center;
+  }
+  
+  .about-section .container {
+   
+    padding: 0;
+  }
+  
+  .about-section img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    
+    
+  }
+  
+  .firstHalf {
+    text-align: center;
+  }
+
+/* Navbar styles */
+.navbar {
+    background-color: #223957;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    color: #eef2f2;
+  }
+  
+  .nav-list li {
+    margin: 0;
+  }
+  
+  .nav-list a {
+    color: #eef2f2;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+  }
+  
+  .nav-list .logo {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  /* Change the color for the "About Me" and "Resume" links */
+  .nav-list .About a,
+  .nav-list .Resume a {
+    color: #fff; /* Set the color to white */
+  }
+  
+  

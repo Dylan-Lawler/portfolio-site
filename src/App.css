@@ -13,6 +13,45 @@
   }
 }
 
+/* App.css */
+/* App.css */
+body {
+  background-color: #009688; /* Teal blue background */
+  font-family: 'FunFont', sans-serif; /* Fun font for text */
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.profile-photo {
+  max-width: 200px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.resume-container {
+  background-color: #ffffff; /* White background for the resume container */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* Existing styles for .App, .App-logo, .App-header, .App-link, and .App-logo-spin remain the same */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
