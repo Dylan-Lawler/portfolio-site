@@ -8,12 +8,12 @@ This project is a simple React-based website that serves as a resume and an "Abo
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-resume-website.git
+   git clone https://github.com/Dylan-Lawler/portfolio-site.git
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd your-resume-website
+   cd portfolio-site
    ```
 
 3. Install the required dependencies:
